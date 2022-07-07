@@ -1,7 +1,10 @@
 // import ReactDOM from 'react-dom';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import EventComponent from './events/EventCompnent';
 import Parent from './props/Parent';
+import GuestList from './state/GuestList';
+import UserSearch from './state/UserSearch';
 
 const App = () => {
   return (
@@ -10,6 +13,12 @@ const App = () => {
       <h1>
         <Parent />
       </h1>
+      <br />
+      <GuestList />
+      <br />
+      <UserSearch />
+      <br />
+      <EventComponent />
     </div>
   );
 };
