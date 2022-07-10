@@ -4,7 +4,8 @@ import { createRoot } from 'react-dom/client';
 import EventComponent from './events/EventCompnent';
 import Parent from './props/Parent';
 import GuestList from './state/GuestList';
-import UserSearch from './state/UserSearch';
+// import UserSearch from './state/UserSearch';
+import UserSearch from './refs/UserSearch';
 
 const App = () => {
   return (
